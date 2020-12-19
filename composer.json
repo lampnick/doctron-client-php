@@ -1,0 +1,25 @@
+{
+    "name": "lampnick/doctron-client-php",
+    "description": "php client for doctron",
+    "type": "library",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "Nick",
+            "email": "nick@lampnick.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "php-curl-class/php-curl-class": "^8.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "lampnick\\doctron\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    }
+}

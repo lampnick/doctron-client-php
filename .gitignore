@@ -1,0 +1,8 @@
+/vendor/
+.idea
+vendor/
+composer.lock
+*.pdf
+*.png
+tests/data/*.pdf
+tests/data/*.png
