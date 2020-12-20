@@ -2,7 +2,10 @@
     "name": "lampnick/doctron-client-php",
     "description": "php client for doctron",
     "type": "library",
-    "license": "Apache License 2.0",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "php", "doctron", "html2pdf", "html2image"
+    ],
     "authors": [
         {
             "name": "Nick",
@@ -11,7 +14,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6",
+        "php": ">=5.3",
         "php-curl-class/php-curl-class": "^8.9"
     },
     "autoload": {
